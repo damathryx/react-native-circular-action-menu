@@ -1,6 +1,5 @@
 import React, {
   Component,
-  PropTypes,
 } from 'react';
 import {
   StyleSheet,
@@ -10,6 +9,7 @@ import {
   TouchableOpacity,
   TouchableWithoutFeedback,
 } from 'react-native';
+import PropTypes from 'prop-types';
 import ActionButtonItem from './ActionButtonItem';
 
 const alignMap = {
